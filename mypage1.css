@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* reset */
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+*{margin:0;padding:0}
+
+body,input,textarea,select,button,table{font-family: 'Cinzel', serif; font-size:12px}
+
+img,fieldset{border:0}
+img{vertical-align:top}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+hr{display:none}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+legend,.blind{position:absolute;left:0;top:-9999em;overflow:hidden}
+
+/* layout */
+#wrap {margin : 0 auto ;min-width: 1140px;}
+.clearfix {*zoom: 1}
+.clearfix:after {content: ''; display: block; clear: both}
+
+/* common */
+.tle {font-size: 2.5em; line-height: 1.4}
+.tle small {display: block; color: #797979; font-size: 0.4em; text-transform: uppercase;}
+
+/* header */
+#header {font-size : 1.5em;position: relative; width: 1140px; margin: 0 auto; padding-bottom: 30px}
+#header .logo {float: left; margin-top: 39px; width: 250px}
+#header .logo a {display: block}
+#header .logo a img {width: 100%}
+#header .nav {position: absolute; top: 36px; left : 50%;margin-right : -200px}
+#header .nav li {float: left}
+#header .nav li a {display: block; padding: 0 20px; color: #ffffff; text-transform: uppercase; line-height: 90px}
+#header .nav li a:hover {color: #dddddd}
+#header .contact {float: right; margin-top: 30px}
+
+/* visual */
+.visual {height: 500px; background: url(background3.jpg) no-repeat 50% 50% / cover; text-align: center}
+.visual .inn {width: 1140px; padding-top: 200px; margin: 0 auto}
+.visual .lead {color: rgb(255, 255, 255); font-size: 5em; font-weight: 400; line-height: 1.6; letter-spacing: 0.05em}
+.visual .desc {margin-bottom: 30px; color: #ffffff; font-size: 1.8em; line-height: 2}
+.visual .more .btn {padding: 0 36px; background-color: #fff; color: #000; font-size: 1.2em; line-height: 58px; letter-spacing: 0.1em}
+.visual .more .btn:hover {background-color: #ffffff}
+
+#container {width: 1140px; margin: 0 auto; padding: 30px 0}
+#container .slogan {margin-bottom : 40px;}
+#container .slogan h2,
+#container .slogan p {text-align: center;}
+#container #about {border-top : 3px solid rgb(182, 182, 182);}
+#container #about #intro {margin-top : 30px;font-size: 3em;text-align: center;}
+/* container > about > aboutTop */
+#container #about {padding: 80px 0; border-top: 1px solid rgb(15, 14, 14)}
+#container #about .aboutTop {padding-bottom: 80px}
+#container #about .aboutTop .picture {float: left; width: 62%}
+#container #about .aboutTop .picture img {width: 100%}
+#container #about .aboutTop .tle {padding-top: 50px; margin: 0 0 15px 70%; font-weight: normal}
+#container #about .aboutTop .desc {margin: 0 0 30px 70%; color: #797979; font-size: 15px; line-height: 1.8}
+
+/* container > about > aboutBtm */
+#container #about .aboutBtm .picture {float: right; width: 62%}
+#container #about .aboutBtm .picture img {width: 100%}
+#container #about .aboutBtm .tle {padding-top: 50px; margin: 0 70% 15px 0; font-weight: normal}
+#container #about .aboutBtm .desc {margin: 0 70% 30px 0  ; color: #797979; font-size: 15px; line-height: 1.8}
+/* container > work */
+#container #work {padding: 80px 0; border-top: 1px solid rgb(15, 14, 14)}
+#container #work .inn{ width : 60%; }
+#container #work .inn img {display: block; position: relative ; width : 70%; left : 50% ;}
+#container #work .tle {text-align: center; font-size : 2.5em; padding : 30px ;}
+/* container > career */
+#container #career{position: relative; padding: 80px 0; border-top: 1px solid rgb(15, 14, 14) }
+#container #career .inner .slogan{font-size : 3em;text-align : center;}
+
+#container #career .tle{padding-top: 50px; margin: 0 0 15px 60%; font-weight: normal}
+#container #career .desc{margin: 0 0 30px 60%; color: #797979; font-size: 15px; line-height: 1.8}
+
+#container #career {padding: 80px 0; border-top: 1px solid rgb(15, 14, 14)}
+#container #career .aboutTop {padding-bottom: 80px}
+#container #career .aboutTop .picture {float: left; width: 62%}
+#container #career .aboutTop .picture img {width: 90%}
+#container #career .aboutTop .tle {padding-top: 10px; margin: 0 0 15px 60%; font-weight: normal}
+#container #career .aboutTop .desc {margin: 0 0 30px 60%; color: #797979; font-size: 15px; line-height: 1.8}
+
+
+
+/* contact */
+#contact {border-top: 1px solid rgb(15, 14, 14); width:1140px; padding: 90px 0 110px;}
+#contact .center {float : left ;margin: 0 auto; text-align: left; width: 360px;}
+#contact .tle {color: rgb(0, 0, 0)}
+#contact dd p {margin-bottom: 15px; color: rgb(3, 3, 3); font-size: 19px; line-height: 1.6}
+#contact dd p a {color: rgb(0, 0, 0); text-decoration: none}
