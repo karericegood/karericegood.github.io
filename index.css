@@ -65,10 +65,10 @@ legend,.blind{position:absolute;left:0;top:-9999em;overflow:hidden}
 /* container > work */
 #container #work {padding: 80px 0; border-top: 1px solid rgb(15, 14, 14)}
 #container #work .inn{ width : 60%; }
-#container #work .inn img {display: block; position: relative ; width : 70%; left : 50% ;}
-#container #work .tle {text-align: center; font-size : 2.5em; padding : 30px ;}
-#container #work .dsc {text-align: center; font-size : 2.0em; padding : 30px ;}
-#container #work .desc {text-align: left; font-size : 1.5em; padding : 30px ; text-transform: lowercase}
+#container #work .inn img {float: left; width : 70%; left : 50% ;}
+#container #work .tle {text-align: center; font-size : 2.5em; padding : 40px ;}
+#container #work .dsc {margin: 0 0 30px 50%; font-size : 2.0em;}
+#container #work .desc {margin: 0 0 30px 50%; font-size : 1.5em; padding : 30px ; text-transform: lowercase}
 /* container > career */
 #container #career{position: relative; padding: 80px 0; border-top: 1px solid rgb(15, 14, 14) }
 #container #career .inner .slogan{font-size : 3em;text-align : center;}
