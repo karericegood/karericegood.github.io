@@ -36,14 +36,14 @@ legend,.blind{position:absolute;left:0;top:-9999em;overflow:hidden}
 #header .contact {float: right; margin-top: 30px}
 
 /* visual */
-.visual {min-width: 1140px;background: url(visual.jpg) no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover; -o-background-size: cover;background-size: cover; text-align: center; height: 500px;}
+.visual {min-width: 1200px;background: url(visual.jpg) no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover; -o-background-size: cover;background-size: cover; text-align: center; height: 500px;}
 .visual .inn { padding-top: 200px; margin: 0 auto}
 .visual .lead {color: rgb(255, 255, 255); font-size: 5em; font-weight: 400; line-height: 1.6; letter-spacing: 0.05em}
 .visual .desc {margin-bottom: 30px; color: #ffffff; font-size: 1.8em; line-height: 2}
 .visual .more .btn {padding: 0 36px; background-color: #fff; color: #000; font-size: 1.2em; line-height: 58px; letter-spacing: 0.1em}
 .visual .more .btn:hover {background-color: #ffffff}
 
-#container {min-width : 1200px; width: 1140px; margin: 0 auto; padding: 30px 0}
+#container {width: 1140px; margin: 0 auto; padding: 20px 20px}
 #container .slogan {margin-bottom : 40px;}
 #container .slogan h2,
 #container .slogan p {text-align: center;}
