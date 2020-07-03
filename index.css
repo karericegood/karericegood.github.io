@@ -36,7 +36,7 @@ legend,.blind{position:absolute;left:0;top:-9999em;overflow:hidden}
 #header .contact {float: right; margin-top: 30px}
 
 /* visual */
-.visual {height: 500px; background: url(tile_page.png) no-repeat 50% 50% / cover; text-align: center}
+.visual {height: 500px; background: url(visual.jpg) no-repeat 50% 50% / cover; text-align: center}
 .visual .inn {width: 1140px; padding-top: 200px; margin: 0 auto}
 .visual .lead {color: rgb(255, 255, 255); font-size: 5em; font-weight: 400; line-height: 1.6; letter-spacing: 0.05em}
 .visual .desc {margin-bottom: 30px; color: #ffffff; font-size: 1.8em; line-height: 2}
@@ -68,7 +68,7 @@ legend,.blind{position:absolute;left:0;top:-9999em;overflow:hidden}
 #container #work .inn img {float: left; width : 70%; left : 50% ;}
 #container #work .tle {text-align: center; font-size : 2.5em; padding : 40px ;}
 #container #work .dsc {margin: 0 0 30px 50%; font-size : 2.0em;}
-#container #work .desc {margin: 0 0 30px 50%; font-size : 1.5em; padding : 30px ; text-transform: lowercase}
+#container #work .desc {margin: 0 0 30px 50%; font-size : 1.5em; padding : 30px ;color :#797979 ; text-transform: lowercase}
 /* container > career */
 #container #career{position: relative; padding: 80px 0; border-top: 1px solid rgb(15, 14, 14) }
 #container #career .inner .slogan{font-size : 3em;text-align : center;}
@@ -81,7 +81,7 @@ legend,.blind{position:absolute;left:0;top:-9999em;overflow:hidden}
 #container #career .aboutTop .picture {float: left; width: 62%}
 #container #career .aboutTop .picture img {width: 90%}
 #container #career .aboutTop .tle {padding-top: 10px; margin: 0 0 15px 60%; font-weight: normal}
-#container #career .aboutTop .desc {margin: 0 0 30px 60%; color: #797979; font-size: 15px; line-height: 1.8}
+#container #career .aboutTop .desc {margin: 0 0 30px 60%; color:#797979; font-size: 15px; line-height: 1.8}
 
 
 
