@@ -37,7 +37,7 @@ legend,.blind{position:absolute;left:0;top:-9999em;overflow:hidden}
 
 /* visual */
 .visual {height: 500px; background: url(visual.jpg) no-repeat 50% 50% / cover; text-align: center ; min-width: 1140;}
-.visual .inn {min-width: 1140px; padding-top: 200px; margin: 0 auto}
+.visual .inn {width: auto; padding-top: 200px; margin: 0 auto}
 .visual .lead {color: rgb(255, 255, 255); font-size: 5em; font-weight: 400; line-height: 1.6; letter-spacing: 0.05em}
 .visual .desc {margin-bottom: 30px; color: #ffffff; font-size: 1.8em; line-height: 2}
 .visual .more .btn {padding: 0 36px; background-color: #fff; color: #000; font-size: 1.2em; line-height: 58px; letter-spacing: 0.1em}
