@@ -15,6 +15,10 @@ a{text-decoration:none}
 a:hover,a:active,a:focus{text-decoration:underline}
 legend,.blind{position:absolute;left:0;top:-9999em;overflow:hidden}
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 /* layout */
 #wrap {margin : 0 auto ;min-width: 1140px;}
 .clearfix {*zoom: 1}
@@ -29,7 +33,7 @@ legend,.blind{position:absolute;left:0;top:-9999em;overflow:hidden}
 #header .logo {float: left; margin-top: 39px; width: 250px}
 #header .logo a {display: block}
 #header .logo a img {width: 100%}
-#header .nav {position: absolute; top: 36px; left : 50%;margin-right : -200px}
+#header .nav {position: absolute; top: 36px; left : 50%;margin-right : -200px ; scroll-behavior: smooth;}
 #header .nav li {float: left}
 #header .nav li a {display: block; padding: 0 20px; color: #ffffff; text-transform: uppercase; line-height: 90px}
 #header .nav li a:hover {color: #dddddd}
@@ -43,7 +47,7 @@ legend,.blind{position:absolute;left:0;top:-9999em;overflow:hidden}
 .visual .more .btn {padding: 0 36px; background-color: #fff; color: #000; font-size: 1.2em; line-height: 58px; letter-spacing: 0.1em}
 .visual .more .btn:hover {background-color: #ffffff}
 
-#container {width: 1140px; margin: 0 auto; padding: 20px 20px}
+#container {width: 1140px; margin: 0 auto; padding: 20px 20px;}
 #container .slogan {margin-bottom : 40px;}
 #container .slogan h2,
 #container .slogan p {text-align: center;}
